@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>U.S. Tax Advisor Switzerland | Léa Verdy</title>
+<meta name="description" content="U.S. tax advisor based in Zurich, advising Americans in Switzerland and abroad on tax returns, FBAR, FATCA, and cross-border tax planning.">
+<meta name="keywords" content="U.S. tax advisor Switzerland, American expat tax Zurich, FBAR Switzerland, FATCA advisor Zurich, U.S. expat tax return Switzerland, dual national tax advice, renunciation exit tax, cross-border tax planning Switzerland">
+<meta name="author" content="Léa Verdy">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.verdytaxadvisory.com/">
+<meta property="og:title" content="U.S. Tax Advisor Switzerland | Léa Verdy">
+<meta property="og:description" content="U.S. tax advisor based in Zurich, advising Americans in Switzerland and abroad on tax returns, FBAR, FATCA, and cross-border tax planning.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.verdytaxadvisory.com/">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="U.S. Tax Advisor Switzerland | Léa Verdy">
+<meta name="twitter:description" content="U.S. tax advisor based in Zurich, advising Americans in Switzerland and abroad on tax returns, FBAR, FATCA, and cross-border tax planning.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Montserrat:wght@200;300;400;500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:      #1c2b3a;
+    --navy-deep: #0f1a24;
+    --gold:      #c9a96e;
+    --gold-light:#e8d4a8;
+    --offwhite:  #f5f3ef;
+    --warm-grey: #e8e4de;
+    --text-mid:  #000000;
+    --text-light:#000000;
+    --text-muted-on-dark: #7a8a96;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: max(70px, env(safe-area-inset-top));
+  }
+  section[id] {
+    scroll-margin-top: -32px;
+  }
+  body {
+    background: var(--offwhite);
+    color: var(--navy);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px max(48px, env(safe-area-inset-right)) 24px max(48px, env(safe-area-inset-left));
+    transition: background 0.4s, padding 0.3s;
+  }
+  nav.scrolled {
+    backdrop-filter: blur(12px);
+    background: rgba(15, 26, 36, 0.92);
+    padding: 16px 48px;
+  }
+
+  .nav-logo { display: flex; flex-direction: column; align-items: flex-start; text-decoration: none; gap: 2px; }
+  .nav-logo .nl-lv {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #faf8f4;
+    line-height: 1;
+    letter-spacing: -0.01em;
+  }
+  .nav-logo .nl-lv .nl-dot { color: var(--gold); }
+  .nav-logo .nl-sub {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--text-muted-on-dark);
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+  }
+  .nav-links a {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #c9a96e;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-weight: 500;
+  }
+  .nav-links a:hover { color: #faf8f4; }
+
+  
+  
+
+  /* Mobile nav */
+  .nav-backdrop {
+    display: none;
+  }
+  .nav-hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: -6px -10px -6px 0;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  .nav-hamburger span {
+    display: block;
+    width: 24px;
+    height: 1px;
+    background: rgba(250,248,244,0.88);
+    transition: transform 0.3s ease, opacity 0.25s ease;
+    transform-origin: center;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    background: var(--navy-deep);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 140px 32px 100px;
+    text-align: center;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    top: -120px; right: -120px;
+    width: 500px; height: 500px;
+    border: 1px solid rgba(201,169,110,0.07);
+    transform: rotate(15deg);
+    pointer-events: none;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    bottom: -80px; left: -80px;
+    width: 400px; height: 400px;
+    border: 1px solid rgba(201,169,110,0.05);
+    transform: rotate(15deg);
+    pointer-events: none;
+  }
+
+  .hero-eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 40px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.2s;
+  }
+
+  /* Stacked logo in hero */
+  .hero-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+    opacity: 0;
+    animation: fadeUp 0.9s ease forwards 0.4s;
+  }
+  .hero-logo .hl-lv {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: clamp(42px, 7vw, 72px);
+    color: #faf8f4;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+  .hero-logo .hl-lv .hl-dot { color: var(--gold); }
+  .hero-logo .hl-bottom {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .hero-logo .hl-sub {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: clamp(9px, 1.8vw, 12px);
+    letter-spacing: 0.38em;
+    text-transform: uppercase;
+    color: var(--text-muted-on-dark);
+  }
+
+  .hero-rule {
+    width: 48px; height: 1px;
+    background: var(--gold);
+    margin: 0 auto 32px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.6s;
+  }
+
+  .hero-tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: clamp(24px, 4vw, 34px);
+    color: #faf8f4;
+    line-height: 1.3;
+    max-width: 760px;
+    margin: 0 auto 8px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.7s;
+  }
+  .hero-subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: clamp(15px, 2.1vw, 20px);
+    color: rgba(250,248,244,0.88);
+    text-align: center;
+    margin: 0 auto 46px;
+    max-width: 760px;
+    line-height: 1.55;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.82s;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards 0.9s;
+  }
+  .hero-primary-wrap {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-micro {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: rgba(250,248,244,0.62);
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    line-height: 1.45;
+  }
+  .hero-cta .btn-primary,
+  .hero-cta .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 52px;
+    padding: 0 24px;
+    white-space: normal;
+    line-height: 1.25;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .btn-primary {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #0a141e;
+    background: var(--gold);
+    padding: 18px 44px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s, transform 0.2s;
+    white-space: nowrap;
+    min-height: 52px;
+    height: auto;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    }
+  .btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+  .btn-secondary {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #faf8f4;
+    border: 1px solid rgba(250,248,244,0.45);
+    padding: 18px 44px;
+    text-decoration: none;
+    transition: border-color 0.2s, color 0.2s;
+    white-space: nowrap;
+  }
+  .btn-secondary:hover { border-color: var(--gold); color: var(--gold); }
+
+  .hero-scroll {
+    position: absolute;
+    bottom: 36px; left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 1.4s;
+  }
+  .hero-scroll span {
+    font-size: 7px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: rgba(250,248,244,0.58);
+  }
+  .scroll-line {
+    width: 1px; height: 36px;
+    background: linear-gradient(to bottom, var(--gold), transparent);
+    animation: scrollPulse 2.2s ease-in-out infinite;
+  }
+
+  /* ── CLIENTS ── */
+  .clients {
+    background: var(--offwhite);
+    padding: 64px 48px;
+  }
+  .clients-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    gap: 32px;
+  }
+  .clients-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2px;
+  }
+  .clients-card {
+    background: white;
+    padding: 32px;
+    border-top: 2px solid #c9a96e;
+  }
+  .clients-card-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--navy);
+    line-height: 1.3;
+    margin-bottom: 10px;
+  }
+  .clients-card-body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: var(--text-mid);
+    line-height: 1.8;
+  }
+
+  /* ── INTRO ── */
+  .intro {
+    background: var(--offwhite);
+    padding: 100px 48px;
+  }
+  .intro-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+  .intro .section-body {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-label {
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+  .section-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: clamp(34px, 3.5vw, 48px);
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 24px;
+    text-wrap: balance;
+  }
+  .section-heading em { font-style: italic; color: var(--gold); }
+  .section-body {
+    font-size: 15px;
+    line-height: 1.9;
+    color: var(--text-mid);
+    font-weight: 400;
+    margin-bottom: 32px;
+  }
+  .intro-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 760px;
+    width: 100%;
+    justify-self: center;
+    text-align: left;
+  }
+  .stat {
+    border-left: 2px solid var(--gold);
+    padding-left: 14px;
+  }
+  .stat-number {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--navy);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .stat-label {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-light);
+    line-height: 1.4;
+  }
+
+  /* ── SERVICES & FEES (unified) ── */
+  .services {
+    background: var(--navy-deep);
+    padding: 100px 48px 100px;
+  }
+  .services-inner { max-width: 1100px; margin: 0 auto; }
+  .services-header { margin-bottom: 56px; }
+  .services-header .section-heading { color: #faf8f4; }
+
+  .offerings-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+  }
+  .offering-card {
+    background: rgba(255,255,255,0.03);
+    padding: 40px 32px;
+    border-top: 1px solid rgba(201,169,110,0.18);
+    transition: background 0.3s;
+  }
+  .offering-label {
+    font-size: 11px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+  .offering-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #faf8f4;
+    margin-bottom: 12px;
+    line-height: 1.3;
+  }
+  .offering-body {
+    font-size: 13px;
+    line-height: 1.85;
+    color: rgba(250,248,244,0.86);
+    margin-bottom: 8px;
+  }
+  .offering-tiers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 16px;
+  }
+  .offering-tier {
+    padding-top: 18px;
+    border-top: 1px solid rgba(201,169,110,0.12);
+  }
+  .offering-tier:first-child {
+    padding-top: 0;
+    border-top: none;
+  }
+  .offering-tier-label {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #faf8f4;
+    margin-bottom: 6px;
+    line-height: 1.25;
+  }
+  .offering-tier-desc {
+    font-size: 13px;
+    line-height: 1.85;
+    color: rgba(250,248,244,0.8);
+    margin-bottom: 10px;
+  }
+  .offering-price {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .offering-card > .offering-price { margin-top: 16px; }
+  .offering-amount {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--gold-light);
+    line-height: 1.2;
+  }
+  .offering-unit {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(250,248,244,0.84);
+  }
+  .offering-note {
+    font-size: 12px;
+    color: rgba(250,248,244,0.82);
+    margin-top: 14px;
+    font-style: italic;
+  }
+
+  /* ── ABOUT ── */
+  .about {
+    background: var(--offwhite);
+    padding: 48px 48px 112px;
+  }
+  .about-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    gap: 80px;
+    align-items: start;
+  }
+  .about-photo-wrap { position: relative; }
+  .about-photo {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  .about-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+  }
+  .about-photo-wrap::after {
+    content: '';
+    position: absolute;
+    top: 14px; left: 14px;
+    right: -14px; bottom: -14px;
+    border: 1px solid rgba(201,169,110,0.35);
+    z-index: 0;
+    pointer-events: none;
+  }
+  .about-body {
+    font-size: 15px;
+    line-height: 1.9;
+    color: var(--text-mid);
+    font-weight: 400;
+    margin-bottom: 28px;
+  }
+  .why-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--navy);
+    margin-bottom: 10px;
+    line-height: 1.25;
+  }
+  .why-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: var(--text-mid);
+  }
+
+  /* ── PROCESS ── */
+  .process {
+    background: #eeeae4;
+    padding: 100px 48px;
+  }
+  .process-inner { max-width: 1100px; margin: 0 auto; }
+  .process-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    margin-top: 56px;
+  }
+  .step {
+    background: white;
+    padding: 36px 28px;
+    position: relative;
+  }
+  .step-number {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+  .step-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: var(--navy);
+    margin-bottom: 10px;
+  }
+  .step-body {
+    font-size: 13px;
+    line-height: 1.85;
+    color: var(--text-mid);
+  }
+  .process-cta-wrap {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .process-cta-wrap .btn-primary {
+    width: 280px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 52px;
+    height: auto;
+    }
+  .process-micro {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: rgba(0, 0, 0, 0.48);
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    line-height: 1.45;
+  }
+  .step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 36px; right: -1px;
+    width: 1px; height: 36px;
+    background: rgba(201,169,110,0.4);
+  }
+
+  /* ── FAQ ── */
+  .faq {
+    background: #f5f3ef;
+    padding: 100px 48px;
+  }
+  .faq-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .faq-list {
+    border-top: 1px solid var(--warm-grey);
+    margin-top: 32px;
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--warm-grey);
+    padding: 20px 0;
+  }
+  .faq-question {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--navy);
+    line-height: 1.35;
+  }
+  .faq-indicator {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+  }
+  .faq-indicator::before,
+  .faq-indicator::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #c9a96e;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+  }
+  .faq-indicator::before {
+    width: 14px;
+    height: 1px;
+  }
+  .faq-indicator::after {
+    width: 1px;
+    height: 14px;
+  }
+  .faq-item.open .faq-indicator {
+    transform: rotate(90deg);
+  }
+  .faq-item.open .faq-indicator::after {
+    transform: translate(-50%, -50%) scaleY(0);
+  }
+  .faq-answer-wrap {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.45s ease, opacity 0.35s ease;
+  }
+  .faq-item.open .faq-answer-wrap {
+    max-height: 720px;
+    opacity: 1;
+  }
+  .faq-answer {
+    margin-top: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--text-mid);
+    line-height: 1.9;
+  }
+
+  /* ── CONTACT ── */
+  .contact {
+    background: var(--navy-deep);
+    padding: 100px 48px;
+    position: relative;
+    overflow: hidden;
+  }
+  .contact::before {
+    content: '';
+    position: absolute;
+    top: -180px; right: -180px;
+    width: 600px; height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(201,169,110,0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .contact-inner {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+  .contact-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(30px, 4vw, 48px);
+    color: #faf8f4;
+    line-height: 1.25;
+    margin-bottom: 20px;
+  }
+  .contact-sub {
+    font-size: 14px;
+    line-height: 1.9;
+    color: rgba(250,248,244,0.86);
+    margin-bottom: 20px;
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-form {
+    max-width: 640px;
+    margin: 0 auto 40px;
+    text-align: left;
+    display: grid;
+    gap: 16px;
+  }
+  .contact-form-group {
+    display: grid;
+    gap: 8px;
+  }
+  .contact-form-label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .contact-form-control {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid var(--warm-grey);
+    background: transparent;
+    color: #faf8f4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 0;
+    outline: none;
+    box-sizing: border-box;
+  }
+  .contact-form-control:focus {
+    border-color: var(--gold);
+  }
+  .contact-form textarea.contact-form-control {
+    min-height: 120px;
+    resize: vertical;
+  }
+  .contact-form select.contact-form-control option {
+    background: var(--navy-deep);
+    color: #faf8f4;
+  }
+  .contact-form .btn-primary {
+    justify-self: center;
+    width: 280px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 52px;
+    height: auto;
+    margin-top: 14px;
+    }
+  .contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+  }
+  .contact-item { display: flex; flex-direction: column; gap: 6px; align-items: center; }
+  .contact-item-label {
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .contact-item-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    color: rgba(250,248,244,0.96);
+  }
+  .contact-rule {
+    width: 48px; height: 1px;
+    background: rgba(201,169,110,0.3);
+    margin: 0 auto 48px;
+  }
+  .contact-message-wrap {
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contact-micro {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: rgba(250,248,244,0.62);
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    line-height: 1.45;
+  }
+
+  /* ── FOOTER ── */
+  .site-footer {
+    background: var(--navy-deep);
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 32px 48px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    text-align: center;
+  }
+  .site-footer-link {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .site-footer-link:hover { color: #faf8f4; }
+  .site-footer-legal {
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(250,248,244,0.68);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  /* ════════════════════════════════
+     MOBILE — max 768px
+  ════════════════════════════════ */
+  @media (max-width: 768px) {
+    nav {
+      padding: 16px max(20px, env(safe-area-inset-right)) 16px max(20px, env(safe-area-inset-left));
+      z-index: 3000;
+      isolation: isolate;
+    }
+    /* backdrop-filter on fixed nav breaks touch targets on many mobile browsers once scrolled */
+    nav.scrolled {
+      padding: 12px max(20px, env(safe-area-inset-right)) 12px max(20px, env(safe-area-inset-left));
+      -webkit-backdrop-filter: none;
+      backdrop-filter: none;
+      background: rgba(15, 26, 36, 0.98);
+    }
+
+    .nav-logo,
+    .nav-hamburger {
+      position: relative;
+      z-index: 3002;
+    }
+    .nav-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 3000;
+      background: rgba(0, 0, 0, 0.52);
+      -webkit-tap-highlight-color: transparent;
+    }
+    nav.nav-open .nav-backdrop {
+      display: block;
+    }
+    .nav-hamburger {
+      display: flex;
+      position: relative;
+      z-index: 3003;
+    }
+    nav.nav-open .nav-hamburger span:nth-child(1) {
+      transform: translateY(6px) rotate(45deg);
+    }
+    nav.nav-open .nav-hamburger span:nth-child(2) {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+    nav.nav-open .nav-hamburger span:nth-child(3) {
+      transform: translateY(-6px) rotate(-45deg);
+    }
+    .nav-links {
+      display: none;
+      visibility: hidden;
+      position: fixed;
+      inset: 0;
+      margin: 0;
+      padding: max(72px, calc(env(safe-area-inset-top) + 56px)) max(24px, env(safe-area-inset-right)) max(32px, env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left));
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: flex-start;
+      gap: 0;
+      background: transparent;
+      list-style: none;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      z-index: 3001;
+      pointer-events: none;
+    }
+    nav.nav-open .nav-links {
+      display: flex;
+      visibility: visible;
+    }
+    .nav-links li {
+      pointer-events: none;
+    }
+    .nav-links a {
+      pointer-events: auto;
+    }
+    .nav-links li { width: 100%; }
+    .nav-links a {
+      display: block;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      letter-spacing: 0.16em;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero {
+      padding: max(100px, calc(env(safe-area-inset-top) + 72px)) max(20px, env(safe-area-inset-right)) 88px max(20px, env(safe-area-inset-left));
+      min-height: 100vh;
+      min-height: 100dvh;
+    }
+    .hero-logo-wrap {
+      margin-bottom: 28px;
+      gap: 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+    .hero-photo { width: 190px; height: 190px; }
+    .hero-logo { align-items: center; }
+    .hero-logo .hl-bottom { justify-content: center; }
+    .hero-logo .hl-lv { font-size: clamp(30px, 9vw, 44px); }
+    .hero-logo .hl-sub { font-size: 10px; letter-spacing: 0.28em; }
+    .hero-tagline {
+      font-size: clamp(19px, 5.6vw, 26px);
+      line-height: 1.28;
+      padding: 0 4px;
+      max-width: 22em;
+    }
+    .hero-subtitle {
+      font-size: clamp(15px, 4.2vw, 18px);
+      line-height: 1.45;
+      margin-bottom: 32px;
+      padding: 0 6px;
+      max-width: 24em;
+    }
+    .hero-cta { flex-direction: column; align-items: center; gap: 14px; width: 100%; max-width: 340px; margin-left: auto; margin-right: auto; }
+    .hero-primary-wrap { width: 100%; max-width: 340px; }
+    .btn-primary, .btn-secondary,
+    .hero-cta .btn-primary, .hero-cta .btn-secondary {
+      width: 100%;
+      max-width: none;
+      text-align: center;
+    }
+    .hero-cta .btn-primary,
+    .hero-cta .btn-secondary {
+      height: auto;
+      min-height: 52px;
+      padding: 14px 18px;
+      white-space: normal;
+    }
+    .hero-scroll { bottom: max(24px, env(safe-area-inset-bottom)); }
+
+    .section-label {
+      font-size: 10px;
+      letter-spacing: 0.22em;
+    }
+    .section-heading {
+      font-size: clamp(26px, 7.2vw, 36px);
+      line-height: 1.18;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      overflow-wrap: break-word;
+    }
+    .services-header .section-heading { hyphens: auto; -webkit-hyphens: auto; }
+    .contact-heading {
+      font-size: clamp(26px, 6.8vw, 40px);
+      line-height: 1.2;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+    }
+    .clients-list-title {
+      font-size: clamp(20px, 5.4vw, 26px);
+      line-height: 1.22;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+    }
+    .offering-title { font-size: clamp(18px, 4.8vw, 22px); line-height: 1.25; }
+    .why-title { font-size: clamp(18px, 4.6vw, 22px); line-height: 1.22; }
+    .step-title { font-size: clamp(17px, 4.2vw, 19px); line-height: 1.25; }
+    .faq-question {
+      font-size: clamp(17px, 4.2vw, 20px);
+      line-height: 1.3;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+    }
+
+    .clients { padding: 48px max(20px, env(safe-area-inset-right)) 48px max(20px, env(safe-area-inset-left)); }
+    .clients-grid { grid-template-columns: 1fr; }
+
+    .intro { padding: 72px max(20px, env(safe-area-inset-right)) 72px max(20px, env(safe-area-inset-left)); }
+    .intro-inner { grid-template-columns: 1fr; gap: 48px; }
+    .intro-stats { grid-template-columns: 1fr 1fr; }
+
+    .services { padding: 72px max(20px, env(safe-area-inset-right)) 72px max(20px, env(safe-area-inset-left)); }
+    .offerings-grid { grid-template-columns: 1fr; gap: 2px; }
+    .offering-card { padding: 32px 24px; }
+    .fees-footer { flex-direction: column; align-items: flex-start; }
+
+    .about { padding: 72px max(20px, env(safe-area-inset-right)) 72px max(20px, env(safe-area-inset-left)); }
+    .about-inner { grid-template-columns: 1fr; gap: 48px; }
+    .about-photo-wrap { max-width: 280px; margin: 0 auto; }
+
+    .process { padding: 72px max(20px, env(safe-area-inset-right)) 72px max(20px, env(safe-area-inset-left)); }
+    .faq { padding: 72px max(20px, env(safe-area-inset-right)) 72px max(20px, env(safe-area-inset-left)); }
+    .process-steps { grid-template-columns: 1fr 1fr; }
+    .step:nth-child(2)::after { display: none; }
+    .step:nth-child(4)::after { display: none; }
+
+    .contact { padding: 72px max(20px, env(safe-area-inset-right)) 72px max(20px, env(safe-area-inset-left)); }
+    .contact-details { gap: 28px; }
+    .contact-item-value { font-size: 14px; }
+
+    .site-footer {
+      padding: 28px max(20px, env(safe-area-inset-right)) max(32px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+    }
+  }
+
+  @media (max-width: 420px) {
+    .process-steps { grid-template-columns: 1fr; }
+    .step::after { display: none; }
+    .intro-stats { grid-template-columns: 1fr; }
+    .faq-item.open .faq-answer-wrap { max-height: 960px; }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .clients-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(22px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  @keyframes scrollPulse {
+    0%, 100% { opacity: 0.4; }
+    50%       { opacity: 1; }
+  }
+
+  .fees-footer {
+    margin-top: 48px;
+    padding: 28px 32px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(201,169,110,0.12);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .fees-footer-text {
+    font-size: 14px;
+    color: rgba(250,248,244,0.86);
+    line-height: 1.7;
+    flex: 1;
+  }
+  .fees-footer-text strong {
+    color: var(--gold);
+    font-weight: 400;
+  }
+  .fees-cta-wrap {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    text-align: center;
+  }
+  .fees-cta-wrap .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 52px;
+    height: auto;
+  }
+  .fees-micro {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: rgba(250,248,244,0.62);
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    line-height: 1.45;
+  }
+
+.reveal {}
+.reveal.visible {}
+
+  /* ── CLIENTS VERTICAL LIST ── */
+  .clients-list {
+    max-width: 720px;
+  }
+  .clients-list-item {
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid rgba(201,169,110,0.2);
+  }
+  .clients-list-item.last {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .clients-list-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: var(--navy);
+    margin-bottom: 8px;
+    line-height: 1.25;
+  }
+  .clients-list-body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-mid);
+    line-height: 1.85;
+    max-width: 580px;
+  }
+
+  /* ── WHY NUMBERED ── */
+  .why-numbered {
+    max-width: 720px;
+  }
+  .why-point {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(201,169,110,0.2);
+  }
+  .why-point.last {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .why-number {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 52px;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 12px;
+    letter-spacing: 0.06em;
+  }
+
+
+  /* ── HERO PHOTO ── */
+  .hero-logo-wrap {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 40px;
+    opacity: 0;
+    animation: fadeUp 0.9s ease forwards 0.4s;
+  }
+  .hero-photo {
+    width: 280px;
+    height: 280px;
+    border-radius: 6px;
+    object-fit: cover;
+    object-position: center top;
+    flex-shrink: 0;
+  }
+  .hero-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 0;
+    opacity: 1;
+    animation: none;
+  }
+
+  /* ── ABOUT SIMPLIFIED (no photo) ── */
+  .about-inner-simple {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .about-content-full {
+    max-width: 720px;
+  }
+  .about-content-full > p.about-body:nth-last-of-type(2) {
+    margin-bottom: 14px;
+  }
+  .about-content-full > .why-transition {
+    margin-top: 0;
+    margin-bottom: 14px;
+  }
+  .about-why-merged {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  /* ── NAV ACTIVE LINK ── */
+  .nav-links a.active {
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--gold);
+  }
+
+  /* ── WHY TRANSITION ── */
+  .why-transition {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--text-mid);
+    max-width: 720px;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nav-logo">
+    <span class="nl-lv">LV<span class="nl-dot">.</span></span>
+    <span class="nl-sub">U.S. Tax Advisory</span>
+  </a>
+  <ul class="nav-links" id="nav-menu">
+    <li><a href="#about">About</a></li>
+    <li><a href="#who-i-work-with">Who I help</a></li>
+    <li><a href="#services">Services &amp; Fees</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="disclaimer.html">Disclaimer</a></li>
+  </ul>
+  <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true" onclick="closeNav()"></div>
+  <button type="button" class="nav-hamburger" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+    <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-logo-wrap">
+    <img src="photo.jpg" alt="Léa Verdy" class="hero-photo" />
+    <div class="hero-logo">
+      <div class="hl-lv">Léa Verdy<span class="hl-dot">.</span></div>
+      <div class="hl-bottom">
+        <div class="hl-sub">U.S. Tax Advisory</div>
+      </div>
+    </div>
+  </div>
+  <p class="hero-tagline">U.S. Tax Advice for Americans Living Abroad</p>
+  <p class="hero-subtitle">Based in Zurich, advising Americans in Switzerland and internationally on U.S. tax compliance and cross-border tax matters.</p>
+  <div class="hero-cta">
+    <div class="hero-primary-wrap">
+      <a href="https://calendly.com/lea-verdytaxadvisory" target="_blank" class="btn-primary">Schedule an initial conversation</a>
+      <div class="hero-micro">30 minutes · No obligation · Confidential</div>
+    </div>
+    <a href="#services" class="btn-secondary">Explore services</a>
+  </div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-inner-simple">
+    <div class="about-content-full">
+      <div class="section-label">About</div>
+      <h2 class="section-heading">Léa Verdy —<br><em>your U.S. tax adviser in Zurich</em></h2>
+      <p class="about-body">I am a U.S.-qualified tax lawyer based in Zurich, specialising in international and cross-border taxation, with a focus on advising Americans living in Switzerland and abroad. I advise U.S. citizens and dual nationals in Switzerland and abroad on U.S. tax compliance, including annual tax filings, foreign asset reporting, and cross-border tax planning.</p>
+      <p class="about-body">I trained and practiced at leading international law firms and advisory practices, where I advised individuals, investment structures, and institutions on complex U.S. tax matters. I founded Léa Verdy – U.S. Tax Advisory to offer a more focused, personal approach to U.S. tax advice — combining technical depth with direct, responsive client service.</p>
+      <p class="about-body">Having worked extensively with cross-border situations, I understand the specific challenges faced by U.S. persons abroad: the interaction between foreign financial products and U.S. tax rules, the complexity of dual filing obligations, and the uncertainty that often comes with navigating two systems at once. My role is to bring clarity, structure, and confidence to that process.</p>
+      <p class="about-body">I deliberately work with a limited number of clients to ensure that each engagement receives the time, attention, and judgement it requires.</p>
+      <p class="why-transition">What distinguishes my practice:</p>
+      <div class="about-why-merged">
+        <div class="why-numbered">
+          <div class="why-point">
+            <div class="why-number">01</div>
+            <h3 class="why-title">U.S.-Qualified Attorney</h3>
+            <p class="why-body">You are working with a licensed U.S. attorney admitted in New York and Paris — not simply a tax preparer. I also hold an LL.M. in Taxation from NYU School of Law. That means deeper expertise, legal privilege, and accountability.</p>
+          </div>
+          <div class="why-point">
+            <div class="why-number">02</div>
+            <h3 class="why-title">Complex Cross-Border Experience</h3>
+            <p class="why-body">From PFICs to foreign pension planning, equity compensation to trust structures — I handle situations that often fall outside the scope of standard expat services.</p>
+          </div>
+          <div class="why-point">
+            <div class="why-number">03</div>
+            <h3 class="why-title">Direct, Personal Service</h3>
+            <p class="why-body">You work with me directly, not a junior associate. I know your situation and respond personally. I am fluent in English and French, with working knowledge of German — so we can discuss cross-border matters in the language that fits you best, and structure them efficiently from a U.S. perspective.</p>
+          </div>
+          <div class="why-point last">
+            <div class="why-number">04</div>
+            <h3 class="why-title">Switzerland-Specific Expertise</h3>
+            <p class="why-body">I work daily with Swiss banks, pension structures (pillar 2 and 3a), and local investment products — and understand how they are treated from a U.S. tax perspective.</p>
+          </div>
+        </div>
+      </div>
+      <a href="https://calendly.com/lea-verdytaxadvisory" target="_blank" rel="noopener noreferrer" class="btn-primary" style="display:inline-block; margin-top: 40px;">Schedule an initial consultation</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- CLIENTS -->
+<section class="clients" id="who-i-work-with">
+  <div class="clients-inner">
+    <div class="section-label">Who I help</div>
+    <h2 class="section-heading">Who I Work With</h2>
+    <div class="clients-list">
+      <div class="clients-list-item">
+        <h3 class="clients-list-title">U.S. citizens &amp; dual nationals abroad</h3>
+        <p class="clients-list-body">Americans living in Switzerland and internationally — whether recently relocated or long established — navigating ongoing U.S. tax filing and reporting obligations alongside a non-U.S. life.</p>
+      </div>
+      <div class="clients-list-item">
+        <h3 class="clients-list-title">Executives, professionals &amp; high-net-worth individuals</h3>
+        <p class="clients-list-body">Senior roles with equity or carried interest, complex portfolios, trusts, PFICs, and cross-border structures that need careful U.S. tax planning.</p>
+      </div>
+      <div class="clients-list-item last">
+        <h3 class="clients-list-title">Americans considering renunciation</h3>
+        <p class="clients-list-body">Exploring expatriation, exit tax under Section 877A, covered expatriate analysis, and Form 8854 before relinquishing U.S. citizenship.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES & FEES -->
+<section class="services" id="services">
+  <div class="services-inner">
+    <div class="services-header">
+      <div class="section-label">What I offer</div>
+      <h2 class="section-heading">Services &amp; Fees</h2>
+    </div>
+    <div class="offerings-grid">
+      <article class="offering-card">
+        <div class="offering-label">Annual filing</div>
+        <h3 class="offering-title">U.S. tax return preparation</h3>
+        <div class="offering-tiers">
+          <div class="offering-tier">
+            <div class="offering-tier-label">Simple expat return</div>
+            <p class="offering-tier-desc">Straightforward employment income (e.g. salaried in Switzerland). Form 1040, FBAR, and standard foreign earned income exclusion.</p>
+            <div class="offering-price">
+              <span class="offering-amount">CHF 1,500 – 2,500</span>
+            </div>
+          </div>
+          <div class="offering-tier">
+            <div class="offering-tier-label">Complex expat return</div>
+            <p class="offering-tier-desc">Foreign financial assets (Form 8938), PFICs, equity compensation, rental income, business interests, or multiple income sources.</p>
+            <div class="offering-price">
+              <span class="offering-amount">CHF 3,500 – 6,000</span>
+            </div>
+          </div>
+        </div>
+        <p class="offering-note">Fixed fee, agreed in advance</p>
+      </article>
+      <article class="offering-card">
+        <div class="offering-label">First year abroad</div>
+        <h3 class="offering-title">New country — expat onboarding</h3>
+        <p class="offering-body">For Americans settling in a new country — including Switzerland and elsewhere: your first U.S. filing, a full obligations briefing, and a host-country banking and investment primer from a U.S. tax perspective.</p>
+        <div class="offering-price">
+          <span class="offering-amount">CHF 2,500 – 4,000</span>
+        </div>
+        <p class="offering-note">Includes first return and onboarding session</p>
+      </article>
+      <article class="offering-card">
+        <div class="offering-label">Advisory &amp; complex matters</div>
+        <h3 class="offering-title">Planning, compliance &amp; structuring</h3>
+        <p class="offering-body">Cross-border tax planning, treaty analysis, FATCA and Streamlined procedures, entity and business structuring (Subpart F, GILTI), and expatriation planning including exit tax and Form 8854 — typically outside a standard annual return.</p>
+        <div class="offering-price">
+          <span class="offering-amount">CHF 350</span>
+          <span class="offering-unit">/ hour</span>
+        </div>
+        <p class="offering-note">Billed in 30-minute increments. Fixed fees available for defined projects.</p>
+      </article>
+    </div>
+    <div class="fees-footer">
+      <p class="fees-footer-text">
+        All fees are <strong>fixed and agreed in writing before work begins</strong> — no surprises.
+        Initial consultations are complimentary. For complex situations, a detailed proposal is provided after an introductory call.
+      </p>
+      <div class="fees-cta-wrap">
+        <a href="https://calendly.com/lea-verdytaxadvisory" target="_blank" class="btn-primary">Discuss your situation</a>
+        <div class="fees-micro">30 minutes · No obligation · Confidential</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="process-inner">
+    <div class="section-label">How it works</div>
+    <h2 class="section-heading">From First Contact to Filed Return</h2>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-number">01</div>
+        <div class="step-title">Initial consultation (no obligation)</div>
+        <p class="step-body">A 30-minute call to understand your situation, residency history, and filing needs. No charge, no commitment.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">02</div>
+        <div class="step-title">Proposal &amp; fixed fee</div>
+        <p class="step-body">You receive a clear scope of work and a fixed fee — no hourly surprises. You decide whether to proceed.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">03</div>
+        <div class="step-title">Document collection</div>
+        <p class="step-body">A simple checklist tailored to your situation. Secure document upload via encrypted portal.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">04</div>
+        <div class="step-title">Review &amp; filing</div>
+        <p class="step-body">Your return is prepared, reviewed with you line by line, and filed. You keep a complete copy for your records.</p>
+      </div>
+    </div>
+    <div class="process-cta-wrap">
+      <a href="https://calendly.com/lea-verdytaxadvisory" target="_blank" class="btn-primary">Schedule an initial consultation</a>
+      <div class="process-micro">30 minutes · No obligation · Confidential</div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="faq-inner">
+    <div class="section-label">Common questions</div>
+    <h2 class="section-heading">Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <article class="faq-item">
+        <button class="faq-question" type="button">
+          <span>Do I really need to file a U.S. tax return if I live in Switzerland or another foreign country?</span>
+          <span class="faq-indicator" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer-wrap">
+          <p class="faq-answer">Yes. The United States taxes its citizens and permanent residents on worldwide income, regardless of where they live. If you are a U.S. citizen or green card holder, you are required to file a U.S. federal tax return every year, even if you pay foreign taxes and earn no income in the U.S. There are mechanisms such as the Foreign Earned Income Exclusion and Foreign Tax Credit that often reduce or eliminate your U.S. tax liability, but the filing obligation remains. I can handle your annual filing from start to finish, so you stay compliant without the stress.</p>
+        </div>
+      </article>
+      <article class="faq-item">
+        <button class="faq-question" type="button">
+          <span>What is FBAR and do I need to file one?</span>
+          <span class="faq-indicator" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer-wrap">
+          <p class="faq-answer">FBAR stands for Report of Foreign Bank and Financial Accounts (FinCEN Form 114). You must file if the aggregate value of all your foreign financial accounts combined exceeds $10,000 at any point during the calendar year. For most U.S. residents in Switzerland, this threshold is easily crossed. The FBAR is filed separately from your tax return, directly with the U.S. Treasury, and the penalties for non-compliance can be severe. I ensure your FBAR is filed correctly and on time, alongside your annual return.</p>
+        </div>
+      </article>
+      <article class="faq-item">
+        <button class="faq-question" type="button">
+          <span>How does the U.S.-Switzerland tax treaty affect me?</span>
+          <span class="faq-indicator" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer-wrap">
+          <p class="faq-answer">The U.S.-Switzerland tax treaty helps prevent double taxation on certain types of income, including dividends, interest, and pensions. However, it does not eliminate your U.S. filing obligation, and its interaction with Swiss tax law is nuanced, particularly for Swiss pensions, pillar 2 and 3a accounts, and investment income. Proper treaty analysis is essential to ensure you are claiming the right benefits without inadvertently triggering U.S. tax on income you assumed was protected. I provide full treaty analysis as part of every engagement, ensuring you claim every benefit you are entitled to.</p>
+        </div>
+      </article>
+      <article class="faq-item">
+        <button class="faq-question" type="button">
+          <span>What happens if I have not filed for several years?</span>
+          <span class="faq-indicator" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer-wrap">
+          <p class="faq-answer">You are not alone. Many Americans abroad discover their filing obligations only after several years of non-compliance. The IRS offers the Streamlined Foreign Offshore Procedures, a programme specifically designed for non-wilful non-filers living abroad. It allows you to catch up on three years of tax returns and six years of FBARs, typically with no penalties. Acting proactively is strongly advisable before the IRS contacts you first. I guide clients through the Streamlined Procedures regularly and it is a manageable process with the right support.</p>
+        </div>
+      </article>
+      <article class="faq-item">
+        <button class="faq-question" type="button">
+          <span>I have Swiss pension funds (pillar 2 and 3a) — how are they treated for U.S. tax purposes?</span>
+          <span class="faq-indicator" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer-wrap">
+          <p class="faq-answer">Swiss pillar 2 and pillar 3a accounts are not automatically treated as tax-deferred under U.S. law in the same way as a 401(k). Their treatment depends on treaty analysis, the structure of the plan, and how contributions and earnings are reported. Getting this wrong can result in unexpected U.S. tax liabilities, and specialist advice is strongly recommended. This is an area I handle frequently for Swiss-based clients, and where specialist advice pays for itself many times over.</p>
+        </div>
+      </article>
+      <article class="faq-item">
+        <button class="faq-question" type="button">
+          <span>What is FATCA and what does it mean for my non-U.S. bank accounts?</span>
+          <span class="faq-indicator" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer-wrap">
+          <p class="faq-answer">FATCA, the Foreign Account Tax Compliance Act, requires foreign financial institutions including Swiss banks to report information about accounts held by U.S. persons to the IRS. In practice, this means your foreign bank almost certainly reports your account to U.S. tax authorities. FATCA does not create an additional tax obligation for you directly, but it does mean the IRS has visibility into your foreign accounts, making compliance all the more important. I help clients understand their FATCA exposure and ensure their reporting is complete and consistent.</p>
+        </div>
+      </article>
+      <article class="faq-item">
+        <button class="faq-question" type="button">
+          <span>Can I renounce my U.S. citizenship to end my filing obligations?</span>
+          <span class="faq-indicator" aria-hidden="true"></span>
+        </button>
+        <div class="faq-answer-wrap">
+          <p class="faq-answer">Yes, but it requires careful planning. Renouncing U.S. citizenship is an irreversible decision with significant tax consequences. If you are a covered expatriate, broadly someone with high net worth or high average annual tax liability, you may be subject to an exit tax under Section 877A, which treats your worldwide assets as if sold on the day before expatriation. Pre-expatriation planning is often essential to reduce your exposure. If you are considering renunciation, I strongly recommend a dedicated planning consultation before taking any steps.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="section-label">Get in touch</div>
+    <h2 class="contact-heading">Let's talk about<br>your U.S. tax situation</h2>
+    <p class="contact-sub">Whether you have a simple question or a complex cross-border situation, I'm here to help.</p>
+    <form class="contact-form" action="https://formspree.io/f/xnjodzbe" method="POST">
+      <div class="contact-form-group">
+        <label class="contact-form-label" for="contact-name">Name</label>
+        <input class="contact-form-control" id="contact-name" name="name" type="text">
+      </div>
+      <div class="contact-form-group">
+        <label class="contact-form-label" for="contact-email">Email</label>
+        <input class="contact-form-control" id="contact-email" name="email" type="email">
+      </div>
+      <div class="contact-form-group">
+        <label class="contact-form-label" for="contact-subject">Subject</label>
+        <select class="contact-form-control" id="contact-subject" name="subject">
+          <option>Annual U.S. tax return</option>
+          <option>Cross-border tax planning</option>
+          <option>FATCA &amp; compliance</option>
+          <option>Renunciation planning</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="contact-form-group">
+        <label class="contact-form-label" for="contact-message">Message</label>
+        <textarea class="contact-form-control" id="contact-message" name="message"></textarea>
+      </div>
+      <button type="submit" class="btn-primary">Send message</button>
+    </form>
+    <div class="contact-rule"></div>
+    <div class="contact-details">
+      <div class="contact-item">
+        <div class="contact-item-label">Email</div>
+        <div class="contact-item-value"><a href="mailto:lea@verdytaxadvisory.com" style="color: inherit; text-decoration: none;">lea@verdytaxadvisory.com</a></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-label">Based in</div>
+        <div class="contact-item-value">Zurich, Switzerland</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-label">Languages</div>
+        <div class="contact-item-value">English &middot; French</div>
+      </div>
+    </div>
+    <div class="contact-message-wrap" style="margin-top:12px;">
+      <a href="https://calendly.com/lea-verdytaxadvisory" target="_blank" class="btn-primary" style="display:inline-flex; align-items:center; justify-content:center; width:280px; text-align:center;">Book a free introductory call</a>
+      <div class="contact-micro">30 minutes · No obligation · Confidential</div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <a href="https://www.linkedin.com/in/l%C3%A9a-verdy-00991780/" target="_blank" rel="noopener noreferrer" class="site-footer-link">LinkedIn</a>
+  <p class="site-footer-legal">Attorney Advertising</p>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    if (!nav) return;
+    nav.classList.toggle('scrolled', window.scrollY > 60);
+
+    // Highlight active nav link based on scroll position
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    let current = '';
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 96;
+      if (window.scrollY >= sectionTop) {
+        current = section.getAttribute('id');
+      }
+    });
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === '#' + current) {
+        link.classList.add('active');
+      }
+    });
+  });
+  function setNavOpen(open) {
+    const navEl = document.getElementById('nav');
+    const toggle = document.getElementById('nav-toggle');
+    const backdrop = document.getElementById('nav-backdrop');
+    navEl.classList.toggle('nav-open', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+    if (toggle) {
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    }
+    if (backdrop) backdrop.setAttribute('aria-hidden', open ? 'false' : 'true');
+  }
+
+  function toggleMenu() {
+    const navEl = document.getElementById('nav');
+    setNavOpen(!navEl.classList.contains('nav-open'));
+  }
+
+  function closeNav() {
+    setNavOpen(false);
+  }
+
+  const navToggle = document.getElementById('nav-toggle');
+  if (navToggle) {
+    navToggle.addEventListener('click', function (e) {
+      e.stopPropagation();
+      toggleMenu();
+    }, true);
+  }
+
+  document.querySelectorAll('.nav-links a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      closeNav();
+    });
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      closeNav();
+    }
+  });
+
+  window.addEventListener('resize', function () {
+    if (window.innerWidth > 768) closeNav();
+  });
+</script>
+<script>
+const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } }); }, { threshold: 0.12 }); document.querySelectorAll('.section-label, .section-heading, .offering-card, .clients-list-item, .step, .about-content, .about-photo-wrap, .stat, .why-transition, .why-point, .contact-heading, .contact-sub, .contact-details').forEach(el => { el.classList.add('reveal'); observer.observe(el); });
+</script>
+<script>
+document.querySelectorAll('.faq-question').forEach(btn => { btn.addEventListener('click', () => { const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  });
+});
+</script>
+</body>
+</html>
