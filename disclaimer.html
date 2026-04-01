@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disclaimer | Léa Verdy - U.S. Tax Advisory</title>
+<meta name="description" content="Disclaimer for Léa Verdy – U.S. Tax Advisory: website information is general only, not legal or tax advice, and does not create an attorney-client relationship.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Disclaimer | Léa Verdy - U.S. Tax Advisory">
+<meta property="og:description" content="Disclaimer for Léa Verdy – U.S. Tax Advisory: website information is general only, not legal or tax advice, and does not create an attorney-client relationship.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Disclaimer | Léa Verdy - U.S. Tax Advisory">
+<meta name="twitter:description" content="Disclaimer for Léa Verdy – U.S. Tax Advisory: website information is general only, not legal or tax advice, and does not create an attorney-client relationship.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Montserrat:wght@200;300;400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:      #1c2b3a;
+    --navy-deep: #0f1a24;
+    --gold:      #c9a96e;
+    --offwhite:  #f5f3ef;
+    --text-mid:  #000000;
+    --text-light:#000000;
+    --text-muted-on-dark: #7a8a96;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: max(70px, env(safe-area-inset-top));
+  }
+  body {
+    background: var(--offwhite);
+    color: var(--navy);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px max(48px, env(safe-area-inset-right)) 24px max(48px, env(safe-area-inset-left));
+    background: rgba(15, 26, 36, 0.96);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .nav-logo { display: flex; flex-direction: column; align-items: flex-start; text-decoration: none; gap: 2px; }
+  .nav-logo .nl-lv {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #faf8f4;
+    line-height: 1;
+    letter-spacing: -0.01em;
+  }
+  .nav-logo .nl-lv .nl-dot { color: var(--gold); }
+  .nav-logo .nl-sub {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 7px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--text-muted-on-dark);
+  }
+  .nav-links {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .nav-links a {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #c9a96e;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-weight: 500;
+  }
+  .nav-links a:hover { color: #faf8f4; }
+  .nav-links a.nav-current { color: #faf8f4; }
+
+  .nav-backdrop { display: none; }
+  .nav-hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: -6px -10px -6px 0;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  .nav-hamburger span {
+    display: block;
+    width: 24px;
+    height: 1px;
+    background: rgba(250,248,244,0.88);
+    transition: transform 0.3s ease, opacity 0.25s ease;
+    transform-origin: center;
+  }
+
+  main {
+    flex: 1;
+    padding: max(152px, calc(env(safe-area-inset-top) + 116px)) 48px 80px;
+    max-width: 720px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  main h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: clamp(32px, 5vw, 42px);
+    color: var(--navy);
+    margin-bottom: 32px;
+    line-height: 1.2;
+  }
+  .disclaimer-prose p {
+    font-size: 15px;
+    line-height: 1.85;
+    color: var(--text-mid);
+    margin-bottom: 22px;
+  }
+  .disclaimer-prose p:last-child { margin-bottom: 0; }
+
+  .site-footer {
+    background: var(--navy-deep);
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 32px 48px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    text-align: center;
+  }
+  .site-footer-link {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .site-footer-link:hover { color: #faf8f4; }
+  .site-footer-legal {
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(250,248,244,0.68);
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 768px) {
+    nav {
+      padding: 16px max(20px, env(safe-area-inset-right)) 16px max(20px, env(safe-area-inset-left));
+      z-index: 3000;
+      isolation: isolate;
+      -webkit-backdrop-filter: none;
+      backdrop-filter: none;
+      background: rgba(15, 26, 36, 0.98);
+    }
+    .nav-logo,
+    .nav-hamburger { position: relative; z-index: 3002; }
+    .nav-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 3000;
+      background: rgba(0, 0, 0, 0.52);
+      -webkit-tap-highlight-color: transparent;
+    }
+    nav.nav-open .nav-backdrop { display: block; }
+    .nav-hamburger { display: flex; z-index: 3003; }
+    nav.nav-open .nav-hamburger span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    nav.nav-open .nav-hamburger span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    nav.nav-open .nav-hamburger span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+    .nav-links {
+      display: none;
+      visibility: hidden;
+      position: fixed;
+      inset: 0;
+      margin: 0;
+      padding: max(72px, calc(env(safe-area-inset-top) + 56px)) max(24px, env(safe-area-inset-right)) max(32px, env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left));
+      flex-direction: column;
+      align-items: stretch;
+      background: var(--navy-deep);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      z-index: 3001;
+    }
+    nav.nav-open .nav-links {
+      display: flex;
+      visibility: visible;
+    }
+    .nav-links a {
+      display: block;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+    main {
+      padding-left: max(20px, env(safe-area-inset-left));
+      padding-right: max(20px, env(safe-area-inset-right));
+    }
+    .site-footer {
+      padding: 28px max(20px, env(safe-area-inset-right)) max(32px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+    }
+  }
+</style>
+</head>
+<body style="min-height:100vh;display:flex;flex-direction:column;">
+
+<nav id="nav">
+  <a href="lea-verdy-website-restructured.html" class="nav-logo">
+    <span class="nl-lv">LV<span class="nl-dot">.</span></span>
+    <span class="nl-sub">U.S. Tax Advisory</span>
+  </a>
+  <ul class="nav-links" id="nav-menu">
+    <li><a href="lea-verdy-website-restructured.html#about">About</a></li>
+    <li><a href="lea-verdy-website-restructured.html#who-i-work-with">Who I help</a></li>
+    <li><a href="lea-verdy-website-restructured.html#services">Services &amp; Fees</a></li>
+    <li><a href="lea-verdy-website-restructured.html#process">Process</a></li>
+    <li><a href="lea-verdy-website-restructured.html#faq">FAQ</a></li>
+    <li><a href="lea-verdy-website-restructured.html#contact">Contact</a></li>
+    <li><a href="disclaimer.html" class="nav-current">Disclaimer</a></li>
+  </ul>
+  <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true" onclick="closeNav()"></div>
+  <button type="button" class="nav-hamburger" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+    <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+  </button>
+</nav>
+
+<main>
+  <h1>Disclaimer</h1>
+  <div class="disclaimer-prose">
+    <p>The information provided on this website is for general informational purposes only and does not constitute legal or tax advice. Viewing this website or contacting Léa Verdy - U.S. Tax Advisory does not create an attorney-client relationship.</p>
+    <p>While efforts are made to ensure that the information on this website is accurate and up to date, no representations or warranties are made as to its completeness or accuracy.</p>
+    <p>Any prior results described on this website do not guarantee a similar outcome.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <a href="https://www.linkedin.com/in/l%C3%A9a-verdy-00991780/" target="_blank" rel="noopener noreferrer" class="site-footer-link">LinkedIn</a>
+  <p class="site-footer-legal">Attorney Advertising</p>
+</footer>
+
+<script>
+  function setNavOpen(open) {
+    const navEl = document.getElementById('nav');
+    const toggle = document.getElementById('nav-toggle');
+    const backdrop = document.getElementById('nav-backdrop');
+    navEl.classList.toggle('nav-open', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+    if (toggle) {
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    }
+    if (backdrop) backdrop.setAttribute('aria-hidden', open ? 'false' : 'true');
+  }
+  function toggleMenu() {
+    const navEl = document.getElementById('nav');
+    setNavOpen(!navEl.classList.contains('nav-open'));
+  }
+  function closeNav() {
+    setNavOpen(false);
+  }
+  const navToggle = document.getElementById('nav-toggle');
+  if (navToggle) {
+    navToggle.addEventListener('click', function (e) {
+      e.stopPropagation();
+      toggleMenu();
+    }, true);
+  }
+  document.querySelectorAll('.nav-links a').forEach(function (a) {
+    a.addEventListener('click', function () { closeNav(); });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeNav();
+  });
+  window.addEventListener('resize', function () {
+    if (window.innerWidth > 768) closeNav();
+  });
+</script>
+</body>
+</html>
